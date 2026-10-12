@@ -1,0 +1,3 @@
+# seulement pour la recherche semantique et l'evaluation (le reste n'a besoin d'aucune librairie)
+scikit-learn>=1.0
+numpy
