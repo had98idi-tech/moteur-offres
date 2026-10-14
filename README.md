@@ -1,6 +1,6 @@
 # Moteur de recherche d'offres d'emploi
 
-![capture](capture.png)
+![Capture](capture.png)
 
 *English version below.*
 
