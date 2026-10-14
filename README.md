@@ -1,5 +1,7 @@
 # Moteur de recherche d'offres d'emploi
 
+![capture](capture.png)
+
 *English version below.*
 
 Un moteur de recherche écrit en Python pour des offres d'emploi : recherche par mots-clés (BM25), recherche
