@@ -16,7 +16,8 @@ def normaliser(texte):
     texte = "".join(c for c in texte if unicodedata.category(c) != "Mn")
     mots = re.findall(r"[a-z0-9+#]+", texte)
     return [m[:-1] if len(m) > 3 and m[-1] in "sx" else m for m in mots if m not in MOTS_VIDES]
-  class Index:
+  
+class Index:
     def __init__(self, docs, texte):
         # texte(doc) = la fonction qui dit quel texte indexer pour un document
         self.mots = defaultdict(dict)   # self.mots["python"] = {numero_du_doc: nb_occurrences}
